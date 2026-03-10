@@ -61,9 +61,9 @@ export default function About() {
             <div className="terminal-body">
               <pre className="terminal-code">
 {`{
-  "name": "Alex Mercer",
+  "name": "Abdelaziz Khouda",
   "role": "Full-Stack Developer",
-  "location": "Marrakesh, MA",
+  "location": "Rabat, MA",
   "stack": ["React", "Node.js", 
             "MongoDB", "Express"],
   "passion": "Building scalable 
