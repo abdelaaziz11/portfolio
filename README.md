@@ -1,4 +1,4 @@
-# 🚀 Alex Mercer — MERN Stack Portfolio
+# 🚀 Abdelaaziz Khouda — MERN Stack Portfolio
 
 A professional, modern full-stack developer portfolio built with the MERN stack (MongoDB, Express, React, Node.js).
 
