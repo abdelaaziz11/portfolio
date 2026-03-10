@@ -1,13 +1,13 @@
 export const portfolioData = {
   profile: {
-    name: "Alex Mercer",
+    name: "Abdelaziz Khouda",
     title: "Full-Stack JavaScript Developer",
     tagline: "Building scalable web applications with the MERN stack",
     bio: "Passionate about crafting elegant solutions to complex problems. I turn ideas into production-ready applications with clean architecture and modern tooling.",
     avatar: null,
-    email: "alex.mercer@dev.io",
-    github: "https://github.com/alexmercer",
-    linkedin: "https://linkedin.com/in/alexmercer",
+    email: "khoudaabdelaaziz@gmail.com",
+    github: "https://github.com/abdelaaziz11",
+    linkedin: "https://linkedin.com/in/abdelkhouda",
     cvUrl: "#",
   },
 
