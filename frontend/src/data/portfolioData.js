@@ -7,7 +7,7 @@ export const portfolioData = {
     avatar: null,
     email: "khoudaabdelaaziz@gmail.com",
     github: "https://github.com/abdelaaziz11",
-    linkedin: "https://linkedin.com/in/abdelkhouda",
+    linkedin: "https://www.linkedin.com/in/abdel-khouda-502b03253/",
     cvUrl: "#",
   },
 
