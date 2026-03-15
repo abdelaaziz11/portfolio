@@ -1,22 +1,22 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import './styles/globals.css';
+import './src/styles/globals.css';
 
-import LoadingScreen from './components/LoadingScreen';
-import ScrollProgress from './components/ScrollProgress';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import AdminPage from './pages/AdminPage';
+import LoadingScreen from './src/components/LoadingScreen';
+import ScrollProgress from './src/components/ScrollProgress';
+import Navbar from './src/components/Navbar';
+import Footer from './src/components/Footer';
+import AdminPage from './src/pages/AdminPage';
 
-import Profile    from './sections/Profile';
-import About      from './sections/About';
-import Experience from './sections/Experience';
-import Education  from './sections/Education';
-import Skills     from './sections/Skills';
-import Projects   from './sections/Projects';
-import Formations from './sections/Formations';
-import Contact    from './sections/Contact';
+import Profile from './src/sections/Profile';
+import About from './src/sections/About';
+import Experience from './src/sections/Experience';
+import Education from './src/sections/Education';
+import Skills from './src/sections/Skills';
+import Projects from './src/sections/Projects';
+import Formations from './src/sections/Formations';
+import Contact from './src/sections/Contact';
 
 function PortfolioHome() {
   const [loading, setLoading] = useState(true);
@@ -55,7 +55,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/"      element={<PortfolioHome />} />
+        <Route path="/" element={<PortfolioHome />} />
         <Route path="/admin" element={<AdminPage />} />
       </Routes>
     </BrowserRouter>
