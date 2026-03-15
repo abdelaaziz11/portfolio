@@ -1,0 +1,60 @@
+.formations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.formation-card {
+  display: flex;
+  gap: 20px;
+  padding: 24px;
+}
+
+.formation-icon-wrap {
+  flex-shrink: 0;
+}
+
+.formation-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--gradient-subtle);
+  border: 1px solid var(--border-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  text-align: center;
+  padding: 4px;
+}
+
+.formation-year {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.formation-name {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.formation-org {
+  font-size: 0.85rem;
+  color: var(--accent-cyan);
+  margin-bottom: 14px;
+}
+
+.formation-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
